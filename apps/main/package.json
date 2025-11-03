@@ -17,7 +17,7 @@
 		"clean": "rm -rf dist && rm -rf node_modules && rm -rf .turbo && rm -rf .next"
 	},
 	"dependencies": {
-		"@reduxjs/toolkit": "^2.9.0",
+		"@reduxjs/toolkit": "^2.9.2",
 		"@sentry/nextjs": "^10.15.0",
 		"@tailwindcss/nesting": "0.0.0-insiders.565cd3e",
 		"@twilight-toolkit/ui": "workspace:*",
