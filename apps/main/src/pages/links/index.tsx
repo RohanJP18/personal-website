@@ -13,12 +13,12 @@ const Links: NextPageWithLayout = ({ friends }: { friends: any }) => {
 	return (
 		<div>
 			<Head>
-				<title>Links - Tony He</title>
+				<title>Links - Sai Rohan Jayaprakash</title>
 				<link
 					rel="icon"
 					href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧑‍🤝‍🧑</text></svg>"
 				/>
-				<meta name="description" content="TonyHe's friends' sites" />
+				<meta name="description" content="Sai Rohan Jayaprakash's friends' sites" />
 			</Head>
 			<section className="mt-0 pt-24 lg:mt-20 lg:pt-0">
 				<div className="mb-4 flex items-center">
@@ -185,7 +185,7 @@ const Links: NextPageWithLayout = ({ friends }: { friends: any }) => {
 				</label>
 				<div className="my-2 mb-4 flex w-full items-center rounded-br-xl rounded-bl-xl border border-gray-300 bg-white px-4 py-3 shadow-xs dark:border-gray-600 dark:bg-gray-700">
 					<p className="items-center text-neutral-500 text-xl tracking-wide dark:text-gray-300">
-						To join this webring, email me at ABC_tony.hlp@hotmail.com (with the
+						To join this webring, email me at srohanjp@gmail.com (with the
 						leading "ABC_" removed).
 					</p>
 				</div>

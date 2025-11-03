@@ -40,11 +40,11 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
 				`- [${category.charAt(0).toUpperCase() + category.slice(1)} Posts](https://lipeng.ac/cate/${category}): Articles categorized under ${category}`
 		).join("\n")
 
-		const llmsTxt = `# Tony He
+		const llmsTxt = `# Sai Rohan Jayaprakash
 
-> Personal website, academic profile, and blog of Tony (Lipeng) He - A collection of thoughts, experiences, publications, and insights across technology, life, and personal development.
+> Personal website and portfolio of Sai Rohan Jayaprakash - I love to design, build, and scale products.
 
-This is Tony He's personal website featuring his academic profile, blog posts, reading lists, and various research and software projects. The site covers topics ranging from technology and programming to personal reflections and life experiences. Content is primarily in Chinese with some English posts.
+This is Sai Rohan Jayaprakash's personal website featuring projects, blog posts, and insights about product design, engineering, and technology.
 
 ## Recent Posts
 

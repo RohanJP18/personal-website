@@ -9,8 +9,8 @@ export const ANALYTICS_API = {
 }
 
 export const GITHUB_API = {
-	USER: "https://api.github.com/users/ttttonyhe",
-	REPOS: "https://api.github.com/users/ttttonyhe/repos",
+	USER: "https://api.github.com/users/RohanJP18",
+	REPOS: "https://api.github.com/users/RohanJP18/repos",
 }
 
 export const GOODREADS_API = {
@@ -26,7 +26,7 @@ export const WORDPRESS_API = {
 }
 
 export const SUBSTATS_API = {
-	SSPAI: "https://api.spencerwoo.com/substats/?source=sspai&queryKey=tonyhe",
+	SSPAI: "https://api.spencerwoo.com/substats/?source=sspai&queryKey=rohanjp",
 }
 
 export const OPENAI_API = {

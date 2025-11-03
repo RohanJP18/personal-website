@@ -7,7 +7,7 @@ export default function GithubFollowerMetric() {
 	const { data } = useSWR("api/github", fetcher)
 
 	const followers = format(data?.followers)
-	const link = "https://github.com/ttttonyhe"
+	const link = "https://github.com/RohanJP18"
 
 	return (
 		<MetricCard

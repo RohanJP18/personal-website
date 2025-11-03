@@ -15,7 +15,7 @@ const Web3: NextPageWithLayout = ({ sponsors }: { sponsors: any }) => {
 	return (
 		<div>
 			<Head>
-				<title>Web 3.0 - Tony He</title>
+				<title>Web 3.0 - Sai Rohan Jayaprakash</title>
 				<link
 					rel="icon"
 					href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌈</text></svg>"
@@ -117,7 +117,7 @@ const Web3: NextPageWithLayout = ({ sponsors }: { sponsors: any }) => {
 								<PageCard
 									title="Name Service"
 									iconSmall="fingerprint"
-									des="(ENS) ttttonyhe.eth"
+									des="(ENS) rohanjp.eth"
 									href="https://app.ens.domains/address/0x2650f08Da54F7019f9a3306bad0dfc8474644eAD"
 									className="text-black dark:text-white"
 									wrappable={true}
@@ -149,8 +149,8 @@ const Web3: NextPageWithLayout = ({ sponsors }: { sponsors: any }) => {
 								<PageCard
 									title="Name Service"
 									iconSmall="fingerprint"
-									des="(Bonfida) tonyhe.sol"
-									href="https://naming.bonfida.org/#/domain/tonyhe"
+									des="(Bonfida) rohan.sol"
+									href="https://naming.bonfida.org/#/domain/rohan"
 									className="text-black dark:text-white"
 									wrappable={true}
 								/>
@@ -192,10 +192,10 @@ const Web3: NextPageWithLayout = ({ sponsors }: { sponsors: any }) => {
 						<div className="mb-10 grid grid-cols-2 gap-4">
 							<PageCard
 								title="Github"
-								des="ttttonyhe"
+								des="RohanJP18"
 								icon="githubLine"
 								className="text-black dark:text-white"
-								href="https://github.com/ttttonyhe"
+								href="https://github.com/RohanJP18"
 							/>
 							<PageCard
 								title="Podcast"
@@ -216,23 +216,23 @@ const Web3: NextPageWithLayout = ({ sponsors }: { sponsors: any }) => {
 						<div className="mb-4">
 							<PageCard
 								title="Github Sponsors"
-								des="ttttonyhe"
+								des="RohanJP18"
 								icon="love"
 								className="text-pink-600"
-								href="https://github.com/sponsors/ttttonyhe"
+								href="https://github.com/sponsors/RohanJP18"
 							/>
 						</div>
 						<div className="grid grid-cols-2 gap-4">
 							<PageCard
 								title="Alipay"
-								des="tony.hlp@hotmail.com"
+								des="srohanjp@gmail.com"
 								icon="alipay"
 								className="text-blue-500"
 								href="https://static.ouorz.com/alipay.png"
 							/>
 							<PageCard
 								title="Wechat Pay"
-								des="ttttonyhe"
+								des="RohanJP18"
 								icon="wxpay"
 								className="text-green-600"
 								href="https://static.ouorz.com/wechatpay.png"

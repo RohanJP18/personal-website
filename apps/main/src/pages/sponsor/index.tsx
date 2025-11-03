@@ -12,7 +12,7 @@ const Sponsor: NextPageWithLayout = ({ sponsors }: { sponsors: any }) => {
 	return (
 		<div>
 			<Head>
-				<title>Sponsor - Tony He</title>
+				<title>Sponsor - Sai Rohan Jayaprakash</title>
 				<link
 					rel="icon"
 					href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☕</text></svg>"
@@ -53,10 +53,10 @@ const Sponsor: NextPageWithLayout = ({ sponsors }: { sponsors: any }) => {
 				<div className="mt-5 mb-10 grid grid-cols-2 gap-4">
 					<PageCard
 						title="Github"
-						des="ttttonyhe"
+						des="RohanJP18"
 						icon="githubLine"
 						className="text-black dark:text-white"
-						href="https://github.com/ttttonyhe"
+						href="https://github.com/RohanJP18"
 					/>
 					<PageCard
 						title="Podcast"
@@ -74,14 +74,14 @@ const Sponsor: NextPageWithLayout = ({ sponsors }: { sponsors: any }) => {
 					<div className="mt-5 grid grid-cols-2 gap-4">
 						<PageCard
 							title="Alipay"
-							des="tony.hlp@hotmail.com"
+							des="srohanjp@gmail.com"
 							icon="alipay"
 							className="text-blue-500"
 							href="https://static.ouorz.com/alipay.png"
 						/>
 						<PageCard
 							title="Wechat Pay"
-							des="ttttonyhe"
+							des="RohanJP18"
 							icon="wxpay"
 							className="text-green-600"
 							href="https://static.ouorz.com/wechatpay.png"
@@ -90,10 +90,10 @@ const Sponsor: NextPageWithLayout = ({ sponsors }: { sponsors: any }) => {
 					<div className="mt-4 grid grid-cols-2 gap-4">
 						<PageCard
 							title="Github Sponsors"
-							des="ttttonyhe"
+							des="RohanJP18"
 							icon="love"
 							className="text-pink-600"
-							href="https://github.com/sponsors/ttttonyhe"
+							href="https://github.com/sponsors/RohanJP18"
 						/>
 						<PageCard
 							title="Bitcoin"
@@ -102,19 +102,19 @@ const Sponsor: NextPageWithLayout = ({ sponsors }: { sponsors: any }) => {
 							href="https://static.ouorz.com/bitcoin.jpg"
 						/>
 					</div>
-					<div className="mt-4 grid grid-cols-2 gap-4">
-						<PageCard
-							title="Solana"
-							des="tonyhe.sol"
-							icon="https://static.ouorz.com/sol.png"
-						/>
-						<PageCard
-							title="Ethereum"
-							des="ttttonyhe.eth"
-							icon="https://static.ouorz.com/eth.png"
-							href="https://static.ouorz.com/metamask.png"
-						/>
-					</div>
+				<div className="mt-4 grid grid-cols-2 gap-4">
+					<PageCard
+						title="Solana"
+						des="rohan.sol"
+						icon="https://static.ouorz.com/sol.png"
+					/>
+					<PageCard
+						title="Ethereum"
+						des="rohanjp.eth"
+						icon="https://static.ouorz.com/eth.png"
+						href="https://static.ouorz.com/metamask.png"
+					/>
+				</div>
 				</div>
 				<div className="my-2 flex w-full items-center rounded-md border bg-white px-5 py-3 shadow-xs dark:border-gray-800 dark:bg-gray-800">
 					<p className="items-center text-gray-500 text-xl tracking-wide dark:text-gray-400">

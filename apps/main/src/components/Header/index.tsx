@@ -76,69 +76,60 @@ const HeaderComponent = ({ headerRef }: HeaderComponentProps) => {
 			hoverable: false,
 			component: (
 				<div className="group mx-auto flex cursor-pointer items-center justify-center space-x-3 px-5">
-					<div className="flex h-[18px] w-[18px] shrink-0 items-center rounded-full border border-gray-300 dark:border-gray-500">
-						{/* <a
-							href="https://opensea.io/assets/ethereum/0x13bd2ac3779cbbcb2ac874c33f1145dd71ce41ee/3690"
-							target="_blank"
-							rel="noreferrer"
-							className="flex"
-						> */}
-						<Image
-							className="rounded-full"
-							src={resolvedTheme === "dark" ? "/icon-dark.png" : "/icon.png"}
-							alt="Tony's NFT avatar"
-							height={18}
-							width={18}
-							loading="lazy"
-						/>
-						{/* </a> */}
+					<div className="flex h-[18px] w-[18px] shrink-0 items-center justify-center rounded-full border border-gray-300 dark:border-gray-500">
+						<span className="font-medium text-xs text-gray-700 dark:text-gray-400">
+							s
+						</span>
 					</div>
 					<div className="font-medium text-3 text-black">
 						<Link href="/" passHref>
 							<h3 className="text-gray-700 dark:text-gray-400 dark:group-hover:text-gray-300">
-								Tony He
+								Sai Rohan Jayaprakash
 							</h3>
 						</Link>
 					</div>
 				</div>
 			),
 		},
-		{
-			label: "Newsletter",
-			className: "hidden lg:block",
-			icon: "subscribe",
-			link: {
-				external: "https://lists.lipeng.ac/subscription/form",
-			},
-		},
 	]
 
 	const rightTabItems = [
-		nonHomePage
-			? {
-					label: "Home",
-					className: "hidden lg:block",
-					icon: "home",
-					link: {
-						internal: "/",
-					},
-				}
-			: {
-					label: "AMA",
-					className: "hidden lg:block",
-					color: "text-pink-500",
-					bgColor: "bg-pink-100",
-					bgDark: "dark:bg-pink-900",
-					icon: "chat",
-					link: {
-						internal: "/page/765",
-					},
-				},
 		{
-			label: "Pages",
+			label: "Home",
+			className: "hidden lg:block",
+			icon: "home",
+			bgColor: "bg-pink-100",
+			bgDark: "dark:bg-pink-900",
+			link: {
+				internal: "/",
+			},
+		},
+		{
+			label: "Connect",
+			className: "hidden lg:block",
+			bgColor: "bg-pink-100",
+			bgDark: "dark:bg-pink-900",
+			icon: "chat",
+			link: {
+				internal: "/page/765",
+			},
+		},
+		{
+			label: "Projects",
 			icon: "pages",
+			bgColor: "bg-pink-100",
+			bgDark: "dark:bg-pink-900",
 			link: {
 				internal: "/pages",
+			},
+		},
+		{
+			label: "Experiences",
+			icon: "suitcase",
+			bgColor: "bg-pink-100",
+			bgDark: "dark:bg-pink-900",
+			link: {
+				internal: "/experiences",
 			},
 		},
 		// {
@@ -219,209 +210,9 @@ const HeaderComponent = ({ headerRef }: HeaderComponentProps) => {
 			},
 		},
 		{
-			label: "Search",
-			id: "search-divider",
-			hoverable: false,
-		},
-		{
-			label: "Search Blog Posts",
-			id: "search",
-			icon: "search",
-			shortcut: ["s"],
-			description: "Command",
-			singleton: false,
-			action: () => {
-				dispatch(updateKbarToSearch())
-				trackEvent("searchBlogPosts", "kbar")
-			},
-			onInputChange: (query: string) => {
-				dispatch(updateKbarSearchQuery(query))
-			},
-		},
-		{
-			label: "Actions",
-			id: "actions-divider",
-			hoverable: false,
-		},
-		{
-			label: "Subscribe to Newsletter",
-			id: "newletter",
-			description: "Link",
-			icon: "subscribe",
-			color: "text-blue-500",
-			bgColor: "bg-blue-100",
-			bgDark: "dark:bg-blue-900",
-			link: {
-				external: "https://lists.lipeng.ac/subscription/form",
-			},
-		},
-		{
-			label: "Subscribe to RSS Feed",
-			id: "rss",
-			description: "Link",
-			icon: "rss",
-			color: "text-yellow-500",
-			bgColor: "bg-yellow-100",
-			bgDark: "dark:bg-yellow-900",
-			link: {
-				external: "https://lipeng.ac/feed",
-			},
-		},
-		{
-			label: "Join our Discord Server",
-			id: "discord",
-			description: "Link",
-			icon: "chatRounded",
-			color: "text-purple-400",
-			bgColor: "bg-purple-100",
-			bgDark: "dark:bg-purple-900",
-			link: {
-				external: "https://discord.gg/TTwGnMgcxr",
-			},
-		},
-		{
-			label: "Sponsor My Work",
-			id: "sponsor",
-			description: "Page",
-			icon: "love",
-			color: "text-pink-500",
-			bgColor: "bg-pink-100",
-			bgDark: "dark:bg-pink-900",
-			link: {
-				internal: "/sponsor",
-			},
-		},
-		{
-			label: "Email Me",
-			id: "email",
-			description: "Link",
-			icon: "email",
-			link: {
-				external: "mailto:tony.hlp@hotmail.com",
-			},
-		},
-		{
-			label: "Leave a Comment",
-			id: "comment",
-			description: "Page",
-			icon: "comments",
-			link: {
-				internal: "/page/249",
-			},
-		},
-		{
-			label: "Ask me Anything",
-			id: "ama",
-			description: "Page",
-			icon: "question",
-			link: {
-				internal: "/page/765",
-			},
-		},
-		{
-			label: "Pages",
-			id: "pages-divider",
-			hoverable: false,
-		},
-		{
-			label: "About",
-			id: "about",
-			description: "Page",
-			icon: "me",
-			link: {
-				internal: "/post/126",
-			},
-		},
-		{
-			label: "Dashboard",
-			id: "dashboard",
-			description: "Page",
-			icon: "ppt",
-			link: {
-				internal: "/dashboard",
-			},
-		},
-		{
-			label: "Friends",
-			id: "links",
-			description: "Page",
-			icon: "people",
-			link: {
-				internal: "/friends",
-			},
-		},
-		{
-			label: "Reading List",
-			id: "reading-list",
-			description: "Page",
-			icon: "bookOpen",
-			link: {
-				internal: "/reading-list",
-			},
-		},
-		{
-			label: "Podcasts",
-			id: "podcasts",
-			description: "Page",
-			icon: "microphone",
-			link: {
-				internal: "/podcasts",
-			},
-		},
-		{
-			label: "Links",
-			id: "links-divider",
-			hoverable: false,
-		},
-		{
-			label: "Analytics",
-			id: "analytics",
-			description: "Link",
-			icon: "growth",
-			link: {
-				external: "https://analytics.ouorz.com/share/E4O9QpCn/ouorz-next",
-			},
-		},
-		{
-			label: "Thoughts",
-			id: "thoughts",
-			description: "Link",
-			icon: "lightBulb",
-			link: {
-				external: "https://notion.ouorz.com",
-			},
-		},
-		{
-			label: "Podcast",
-			id: "podcast",
-			description: "Link",
-			icon: "mic",
-			link: {
-				external: "https://kukfm.com",
-			},
-		},
-		{
-			label: "Snapod",
-			id: "snapod",
-			description: "Link",
-			icon: "microphone",
-			link: {
-				external: "https://www.snapodcast.com",
-			},
-		},
-		{
 			label: "Social",
 			id: "social-divider",
 			hoverable: false,
-		},
-		{
-			label: "X",
-			id: "twitter",
-			description: "Link",
-			icon: "twitterX",
-			link: {
-				external: "https://x.com/ttttonyhe",
-			},
 		},
 		{
 			label: "GitHub",
@@ -429,7 +220,7 @@ const HeaderComponent = ({ headerRef }: HeaderComponentProps) => {
 			description: "Link",
 			icon: "github",
 			link: {
-				external: "https://github.com/ttttonyhe",
+				external: "https://github.com/RohanJP18",
 			},
 		},
 		{
@@ -438,49 +229,7 @@ const HeaderComponent = ({ headerRef }: HeaderComponentProps) => {
 			description: "Link",
 			icon: "briefCase",
 			link: {
-				external: "https://www.linkedin.com/in/~lhe",
-			},
-		},
-		{
-			label: "Web 3.0",
-			id: "web3-divider",
-			hoverable: false,
-		},
-		{
-			label: "OpenSea",
-			id: "opensea",
-			description: "Link",
-			icon: "openSea",
-			link: {
-				external: "https://opensea.io/ttttonyhe",
-			},
-		},
-		{
-			label: "MagicEden",
-			id: "magicEden",
-			description: "Link",
-			icon: "magicEden",
-			link: {
-				external: "https://magiceden.io/u/tonyhe",
-			},
-		},
-		{
-			label: "Ethereum",
-			id: "ens",
-			description: "ttttonyhe.eth",
-			icon: "eth",
-			link: {
-				external:
-					"https://app.ens.domains/address/0x2650f08Da54F7019f9a3306bad0dfc8474644eAD",
-			},
-		},
-		{
-			label: "Solana",
-			id: "solana",
-			description: "tonyhe.sol",
-			icon: "solana",
-			link: {
-				external: "https://naming.bonfida.org/#/domain/tonyhe",
+				external: "https://www.linkedin.com/in/rohanjp/",
 			},
 		},
 	]

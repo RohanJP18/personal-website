@@ -10,8 +10,7 @@ const ErrorPage: NextPageWithLayout = ({ statusCode }: ErrorProps) => {
 	return (
 		<div>
 			<Head>
-				<title>Error - Tony He</title>
-				<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+				<title>Error - Sai Rohan Jayaprakash</title>
 			</Head>
 			<div className="mt-0 flex h-[65vh] items-center justify-center pt-24 lg:mt-20 lg:pt-0">
 				<div className="text-center">

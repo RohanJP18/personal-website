@@ -47,7 +47,7 @@ const BlogPost: NextPageWithLayout = ({ status, post }: Props) => {
 	}
 
 	const { pid } = router.query
-	const title = `${post.title.rendered} - Tony He`
+	const title = `${post.title.rendered} - Sai Rohan Jayaprakash`
 
 	useEffect(() => {
 		dispatch(setHeaderTitle(post.title.rendered))

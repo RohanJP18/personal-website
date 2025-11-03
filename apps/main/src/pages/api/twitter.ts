@@ -14,7 +14,7 @@ const twitter = async (
 ) => {
 	try {
 		const response = await fetch(
-			`${TWITTER_API.USER_LOOKUP.USER_BY_USERNAME_METRICS}/ttttonyhe?user.fields=public_metrics`,
+			`${TWITTER_API.USER_LOOKUP.USER_BY_USERNAME_METRICS}/rohanjp?user.fields=public_metrics`,
 			{
 				headers: {
 					Authorization: `Bearer ${process.env.TWITTER_BEARER_TOKEN}`,

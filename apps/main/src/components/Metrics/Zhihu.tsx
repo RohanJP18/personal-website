@@ -7,7 +7,7 @@ export default function ZhihuMetric() {
 	const { data } = useSWR("api/substats", fetcher)
 
 	const followers = format(data?.zhihuFollowers)
-	const link = "https://www.zhihu.com/people/ttttonyhe"
+	const link = "https://www.zhihu.com/people/rohanjp"
 
 	return (
 		<MetricCard

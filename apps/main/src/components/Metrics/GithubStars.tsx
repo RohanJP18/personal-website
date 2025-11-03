@@ -7,7 +7,7 @@ export default function GithubStarMetric() {
 	const { data } = useSWR("api/github", fetcher)
 
 	const stars = format(data?.stars)
-	const link = "https://github.com/ttttonyhe"
+	const link = "https://github.com/RohanJP18"
 
 	return (
 		<MetricCard

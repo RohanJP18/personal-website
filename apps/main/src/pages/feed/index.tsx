@@ -21,17 +21,17 @@ const Categories = ["personal", "technology", "life", "blogs"]
 export const getServerSideProps: GetServerSideProps = async ({ res }) => {
 	if (res) {
 		const feed = new RSS({
-			title: "Tony He",
-			language: "zh-cn",
+			title: "Sai Rohan Jayaprakash",
+			language: "en-us",
 			categories: Categories,
 			generator: "Next.js / WordPress",
 			site_url: "https://lipeng.ac",
 			feed_url: "https://lipeng.ac/feed",
 			image_url: "https://lipeng.ac/tony.png",
-			webMaster: "tony.hlp@hotmail.com (Tony He)",
-			managingEditor: "tony.hlp@hotmail.com (Tony He)",
+			webMaster: "srohanjp@gmail.com (Sai Rohan Jayaprakash)",
+			managingEditor: "srohanjp@gmail.com (Sai Rohan Jayaprakash)",
 			docs: "https://www.rssboard.org/rss-specification",
-			copyright: `© ${new Date().getFullYear()} Tony He`,
+			copyright: `© ${new Date().getFullYear()} Sai Rohan Jayaprakash`,
 			description:
 				"Living an absolutely not meaningless life with totally not unachievable goals.",
 		})
@@ -64,7 +64,7 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
 
 				feed.item({
 					url: postURL,
-					author: "Tony He",
+					author: "Sai Rohan Jayaprakash",
 					title: post_title,
 					categories: Categories,
 					date: new Date(post_date_gmt),
@@ -74,7 +74,7 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
 							"content:encoded": {
 								_cdata: sanitizeStr(post_content),
 							},
-							"dc:creator": "Tony He",
+							"dc:creator": "Sai Rohan Jayaprakash",
 						},
 					],
 					...(post_img &&

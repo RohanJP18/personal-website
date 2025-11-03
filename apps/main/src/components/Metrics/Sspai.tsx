@@ -7,7 +7,7 @@ export default function SspaiMetric() {
 	const { data } = useSWR("api/substats", fetcher)
 
 	const followers = format(data?.sspaiFollowers)
-	const link = "https://sspai.com/u/tonyhe"
+	const link = "https://sspai.com/u/rohanjp"
 
 	return (
 		<MetricCard

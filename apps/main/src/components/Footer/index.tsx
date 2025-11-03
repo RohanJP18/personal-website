@@ -83,21 +83,6 @@ export default function Footer() {
 					</button>
 				</OffsetTransition>
 			</div>
-			<p className="text-4 text-gray-500 tracking-wide dark:text-gray-400">
-				<a
-					href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
-					target="_blank"
-					rel="noreferrer">
-					CC BY-NC-SA 4.0
-				</a>{" "}
-				<span>·</span>{" "}
-				<a
-					href="https://github.com/ttttonyhe/ouorz-mono"
-					target="_blank"
-					rel="noreferrer">
-					Open Source Software (OSS)
-				</a>
-			</p>
 		</footer>
 	)
 }

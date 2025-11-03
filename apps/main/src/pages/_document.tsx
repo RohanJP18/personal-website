@@ -19,55 +19,52 @@ class AppDocument extends Document {
 		return (
 			<Html lang="en" prefix="og: http://ogp.me/ns#">
 				<Head>
-					<link rel="icon" type="image/x-icon" href="/favicon.ico" />
 					<link
-						type="image/vnd.microsoft.icon"
-						href="/favicon-dark.ico"
-						rel="shortcut icon"
-						media="(prefers-color-scheme: dark)"
-					/>
-					<link
-						type="image/vnd.microsoft.icon"
-						href="/favicon.ico"
-						rel="shortcut icon"
+						rel="icon"
+						href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='white' stroke='%23d1d5db' stroke-width='3'/><text x='50' y='50' font-family='system-ui, -apple-system, sans-serif' font-size='50' font-weight='500' text-anchor='middle' dominant-baseline='central' fill='%23374151'>s</text></svg>"
 						media="(prefers-color-scheme: light)"
 					/>
-					<meta
-						name="description"
-						content="Lipeng He, Student Researcher and Full Stack Software Engineer."
+					<link
+						rel="icon"
+						href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='%231f2937' stroke='%236b7280' stroke-width='3'/><text x='50' y='50' font-family='system-ui, -apple-system, sans-serif' font-size='50' font-weight='500' text-anchor='middle' dominant-baseline='central' fill='%239ca3af'>s</text></svg>"
+						media="(prefers-color-scheme: dark)"
 					/>
-					<meta
-						name="keywords"
-						content="Tony He, Lipeng He, 贺莉朋, 博客, 个人博客, 独立博客, 前端开发, 后端开发, 全栈开发, 区块链, 工程师, 研究学者, Researcher, Crypto, Blockchain, Tony, Developer, Blogger, Podcaster, Blog, Personal Site, WordPress, Next.js, React.js, TypeScript, JavaScript"
-					/>
+				<meta
+					name="description"
+					content="Sai Rohan Jayaprakash - I love to design, build, and scale products."
+				/>
+				<meta
+					name="keywords"
+					content="Sai Rohan Jayaprakash, Product Designer, Product Engineer, Full Stack Developer, Software Engineer, Developer, Blog, Personal Site, Next.js, React.js, TypeScript, JavaScript"
+				/>
 					<meta name="robots" content="index,follow" />
 					<meta name="googlebot" content="index,follow" />
 					<meta property="og:url" content="https://lipeng.ac" />
 					<meta property="og:type" content="website" />
-					<meta property="og:title" content="Tony He" />
-					<meta
-						property="og:description"
-						content="Lipeng He, Student Researcher and Full Stack Software Engineer."
-					/>
-					<meta
-						property="og:image"
-						content="https://static.ouorz.com/ouorz-og-image.jpg"
-					/>
-					<meta property="og:image:alt" content="TonyHe" />
-					<meta property="og:locale" content="zh_CN" />
-					<meta property="og:site_name" content="TonyHe" />
+					<meta property="og:title" content="Sai Rohan Jayaprakash" />
+				<meta
+					property="og:description"
+					content="Sai Rohan Jayaprakash - I love to design, build, and scale products."
+				/>
+				<meta
+					property="og:image"
+					content="https://static.ouorz.com/ouorz-og-image.jpg"
+				/>
+					<meta property="og:image:alt" content="Sai Rohan Jayaprakash" />
+					<meta property="og:locale" content="en_US" />
+					<meta property="og:site_name" content="Sai Rohan Jayaprakash" />
 					<meta name="twitter:card" content="summary_large_image" />
-					<meta name="twitter:site" content="@ttttonyhe" />
-					<meta name="twitter:creator" content="@ttttonyhe" />
-					<meta property="twitter:title" content="TonyHe" />
+					<meta name="twitter:site" content="@rohanjp" />
+					<meta name="twitter:creator" content="@rohanjp" />
+					<meta property="twitter:title" content="Sai Rohan Jayaprakash" />
 					<meta
 						property="twitter:image"
 						content="https://static.ouorz.com/ouorz-og-image.jpg"
 					/>
-					<meta
-						property="twitter:description"
-						content="Lipeng He, Student Researcher and Full Stack Software Engineer."
-					/>
+				<meta
+					property="twitter:description"
+					content="Sai Rohan Jayaprakash - I love to design, build, and scale products."
+				/>
 					<meta name="theme-color" content="#f7f8f9" />
 					<link rel="canonical" href="https://lipeng.ac" />
 					<link

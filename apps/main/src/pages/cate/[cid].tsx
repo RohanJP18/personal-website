@@ -15,7 +15,7 @@ interface CateProps {
 }
 
 const Cate: NextPageWithLayout = ({ info }: CateProps) => {
-	const title = `${info.name} - Tony He`
+	const title = `${info.name} - Sai Rohan Jayaprakash`
 	const router = useRouter()
 
 	if (info.status) {
@@ -29,7 +29,7 @@ const Cate: NextPageWithLayout = ({ info }: CateProps) => {
 					/>
 					<meta
 						name="description"
-						content={`TonyHe's content under category "${info.name}"`}
+						content={`Sai Rohan Jayaprakash's content under category "${info.name}"`}
 					/>
 				</Head>
 				<div className="mt-0 pt-24 lg:mt-20 lg:pt-0">

@@ -6,7 +6,7 @@ type GeneralState = {
 }
 
 const GeneralInitialState: GeneralState = {
-	headerTitle: "Tony He",
+	headerTitle: "Sai Rohan Jayaprakash",
 }
 
 const generalReducer = (

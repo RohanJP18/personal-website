@@ -7,7 +7,7 @@ export default function TwitterMetric() {
 	const { data } = useSWR("api/twitter", fetcher)
 
 	const followers = format(data?.followers)
-	const link = "https://twitter.com/ttttonyhe"
+	const link = "https://twitter.com/rohanjp"
 
 	return (
 		<MetricCard

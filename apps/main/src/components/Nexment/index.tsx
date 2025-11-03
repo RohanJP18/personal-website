@@ -19,8 +19,8 @@ const NexmentComponent = () => {
 			serverURL: "https://ouorz-nexment.ouorz.com",
 		},
 		admin: {
-			name: "TonyHe",
-			email: "tony.hlp@hotmail.com",
+			name: "Sai Rohan Jayaprakash",
+			email: "srohanjp@gmail.com",
 		},
 		blackList: [
 			{

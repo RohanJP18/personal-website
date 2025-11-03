@@ -45,9 +45,9 @@ const PaperCard = (props: PaperCardProps) => {
 			<div className="flex flex-col gap-y-2.5 px-4.5 pt-1 pb-3.5">
 				<div className="text-gray-600 text-sm tracking-wide dark:text-gray-300">
 					{
-						// Make my name (Lipeng He) bold, also split authors by comma
+						// Make my name (Sai Rohan Jayaprakash) bold, also split authors by comma
 						authorList.map((author, idx) => {
-							const isMyName = author.includes("Lipeng He")
+							const isMyName = author.includes("Sai Rohan Jayaprakash") || author.includes("Rohan")
 							return (
 								<span key={author} className={isMyName ? "font-semibold" : ""}>
 									{author}
