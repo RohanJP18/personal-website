@@ -63,37 +63,6 @@
         "ALGOLIA_INDEX_NAME"
       ]
     },
-    "@ouorz/preview#build": {
-      "dependsOn": [
-        "^build"
-      ],
-      "outputs": [
-        ".next/**"
-      ]
-    },
-    "@ouorz/analytics#build": {
-      "dependsOn": [
-        "^build"
-      ],
-      "outputs": [
-        ".next/**"
-      ],
-      "env": [
-        "DATABASE_URL",
-        "HASH_SALT",
-        "MAXMIND_LICENSE_KEY"
-      ]
-    },
-    "@ouorz/analytics#build-edge": {
-      "outputs": [
-        ".next/**"
-      ],
-      "env": [
-        "DATABASE_URL",
-        "HASH_SALT",
-        "MAXMIND_LICENSE_KEY"
-      ]
-    },
     "test": {
       "dependsOn": [
         "^build"
