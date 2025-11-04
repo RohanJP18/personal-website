@@ -39,43 +39,25 @@ class AppDocument extends Document {
 				/>
 					<meta name="robots" content="index,follow" />
 					<meta name="googlebot" content="index,follow" />
-					<meta property="og:url" content="https://lipeng.ac" />
+					<meta property="og:url" content="https://personal-website-analytics-tau.vercel.app" />
 					<meta property="og:type" content="website" />
 					<meta property="og:title" content="Sai Rohan Jayaprakash" />
 				<meta
 					property="og:description"
 					content="Sai Rohan Jayaprakash - I love to design, build, and scale products."
 				/>
-				<meta
-					property="og:image"
-					content="https://static.ouorz.com/ouorz-og-image.jpg"
-				/>
 					<meta property="og:image:alt" content="Sai Rohan Jayaprakash" />
 					<meta property="og:locale" content="en_US" />
 					<meta property="og:site_name" content="Sai Rohan Jayaprakash" />
-					<meta name="twitter:card" content="summary_large_image" />
+					<meta name="twitter:card" content="summary" />
 					<meta name="twitter:site" content="@rohanjp" />
 					<meta name="twitter:creator" content="@rohanjp" />
 					<meta property="twitter:title" content="Sai Rohan Jayaprakash" />
-					<meta
-						property="twitter:image"
-						content="https://static.ouorz.com/ouorz-og-image.jpg"
-					/>
 				<meta
 					property="twitter:description"
 					content="Sai Rohan Jayaprakash - I love to design, build, and scale products."
 				/>
 					<meta name="theme-color" content="#f7f8f9" />
-					<link rel="canonical" href="https://lipeng.ac" />
-					<link
-						rel="apple-touch-icon"
-						href="https://static.ouorz.com/tonyhe_rounded_apple_touch.png"
-					/>
-					<link
-						rel="mask-icon"
-						href="https://static.ouorz.com/ouorz-mask.ico"
-					/>
-					<meta name="baidu-site-verification" content="codeva-4VKhm5g62Z" />
 				</Head>
 				<body>
 					<Main />
