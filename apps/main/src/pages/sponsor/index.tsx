@@ -102,19 +102,19 @@ const Sponsor: NextPageWithLayout = ({ sponsors }: { sponsors: any }) => {
 							href="https://static.ouorz.com/bitcoin.jpg"
 						/>
 					</div>
-				<div className="mt-4 grid grid-cols-2 gap-4">
-					<PageCard
-						title="Solana"
+					<div className="mt-4 grid grid-cols-2 gap-4">
+						<PageCard
+							title="Solana"
 						des="rohan.sol"
-						icon="https://static.ouorz.com/sol.png"
-					/>
-					<PageCard
-						title="Ethereum"
+							icon="https://static.ouorz.com/sol.png"
+						/>
+						<PageCard
+							title="Ethereum"
 						des="rohanjp.eth"
-						icon="https://static.ouorz.com/eth.png"
-						href="https://static.ouorz.com/metamask.png"
-					/>
-				</div>
+							icon="https://static.ouorz.com/eth.png"
+							href="https://static.ouorz.com/metamask.png"
+						/>
+					</div>
 				</div>
 				<div className="my-2 flex w-full items-center rounded-md border bg-white px-5 py-3 shadow-xs dark:border-gray-800 dark:bg-gray-800">
 					<p className="items-center text-gray-500 text-xl tracking-wide dark:text-gray-400">

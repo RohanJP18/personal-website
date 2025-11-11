@@ -249,7 +249,45 @@
 	}
 
 	body {
-		@apply w-full;
+		@apply relative w-full overflow-x-hidden bg-gbg text-gray-900 transition-colors duration-300 dark:bg-neutral-900 dark:text-white;
+	}
+
+	body::before {
+		content: "";
+		position: fixed;
+		inset: -40%;
+		pointer-events: none;
+		z-index: -1;
+		opacity: 0.35;
+		background: radial-gradient(circle at 20% 20%, rgba(99, 102, 241, 0.18), transparent 45%),
+			radial-gradient(circle at 80% 10%, rgba(56, 189, 248, 0.15), transparent 50%),
+			radial-gradient(circle at 50% 80%, rgba(167, 139, 250, 0.12), transparent 55%);
+		animation: ambientGlow 22s ease-in-out infinite alternate;
+	}
+
+	.dark body::before {
+		opacity: 0.5;
+		background: radial-gradient(circle at 15% 25%, rgba(99, 102, 241, 0.3), transparent 45%),
+			radial-gradient(circle at 85% 20%, rgba(14, 165, 233, 0.25), transparent 50%),
+			radial-gradient(circle at 50% 85%, rgba(139, 92, 246, 0.2), transparent 55%);
+	}
+
+	@keyframes ambientGlow {
+		0% {
+			transform: scale(1) translate3d(0, 0, 0);
+		}
+		50% {
+			transform: scale(1.05) translate3d(2%, -1%, 0);
+		}
+		100% {
+			transform: scale(1.02) translate3d(-1%, 2%, 0);
+		}
+	}
+
+	:focus-visible {
+		outline: 2px solid rgba(99, 102, 241, 0.6);
+		outline-offset: 3px;
+		transition: outline-color 0.2s ease;
 	}
 
 	.nexment-admin-badge {

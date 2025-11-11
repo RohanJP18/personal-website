@@ -29,28 +29,28 @@ const PagesAndLinks = () => {
 						<span>Calendar</span>
 					</Link>
 				{/* <Link
-					href="https://static.ouorz.com/tonyhe_cv_v2.pdf"
-					target="_blank"
-					className="effect-pressing flex items-center gap-x-[4px] rounded-md border px-3 py-1 shadow-xs hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-700 dark:hover:border-gray-600 dark:hover:bg-gray-600">
-					<span className="h-4.5 w-4.5 lg:h-[16px] lg:w-[16px]">
-						<Icon name="profile" />
-					</span>
-					<span className="flex items-center gap-x-2">
-						<span>Curriculum Vitae</span>
-					</span>
+						href="https://static.ouorz.com/tonyhe_cv_v2.pdf"
+						target="_blank"
+						className="effect-pressing flex items-center gap-x-[4px] rounded-md border px-3 py-1 shadow-xs hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-700 dark:hover:border-gray-600 dark:hover:bg-gray-600">
+						<span className="h-4.5 w-4.5 lg:h-[16px] lg:w-[16px]">
+							<Icon name="profile" />
+						</span>
+						<span className="flex items-center gap-x-2">
+							<span>Curriculum Vitae</span>
+						</span>
 				</Link> */}
 				{/* <Link
-					href="https://ttttonyhe.notion.site/250f879c89c8805fbcd1d8cba161cabf?pvs=105"
-					target="_blank"
-					className="effect-pressing flex items-center gap-x-[4px] rounded-md border px-3 py-1 shadow-xs hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-700 dark:hover:border-gray-600 dark:hover:bg-gray-600">
-					<span className="h-4.5 w-4.5 lg:h-[16px] lg:w-[16px]">
-						<Icon name="comments" />
-					</span>
-					<span className="flex items-center gap-x-2">
-						<span>Feedback</span>
-					</span>
+						href="https://ttttonyhe.notion.site/250f879c89c8805fbcd1d8cba161cabf?pvs=105"
+						target="_blank"
+						className="effect-pressing flex items-center gap-x-[4px] rounded-md border px-3 py-1 shadow-xs hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-700 dark:hover:border-gray-600 dark:hover:bg-gray-600">
+						<span className="h-4.5 w-4.5 lg:h-[16px] lg:w-[16px]">
+							<Icon name="comments" />
+						</span>
+						<span className="flex items-center gap-x-2">
+							<span>Feedback</span>
+						</span>
 				</Link> */}
-				{/* <Link
+					{/* <Link
 					href="https://github.com/RohanJP18"
 						target="_blank"
 						className="effect-pressing flex items-center gap-x-[4px] rounded-md border px-3 py-1 shadow-xs hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-700 dark:hover:border-gray-600 dark:hover:bg-gray-600">
